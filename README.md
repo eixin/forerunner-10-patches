@@ -27,4 +27,4 @@ Notes:
 
 1. Everything is provided 'AS IS' and author is not responsible for any possible damage made to the unit.
 2. Each incremental patch shows firmware version in Settings/About as 2.41, 2.42 .. 2.45 (like an extra check)
-3. You can avoid incrementality of the patches and apply only things you want by finding a difference between patched files and patching a firmware with that difference only. But you might need to update a kind of checksum (a byte) at the end of firmware file, so that the sum of all bytes starting from 0x78 and until the end of file is a multiple of 0x100. I am using WinHex which calculates a sum of all bytes using its Analyze Block feature.
+3. You can avoid incrementality of the patches and apply only things you want by finding a difference between patched files and patching a firmware with that difference only. But you should update a kind of checksum (a byte) at the end of firmware file, so that the sum of all bytes starting from 0x78 and until the end of file is a multiple of 0x100. I am using WinHex which calculates a sum of all bytes using its Analyze Block feature.
