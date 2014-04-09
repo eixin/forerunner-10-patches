@@ -10,7 +10,7 @@ The following patches are supported (incremental):
 * p12.patch: p1 + In running mode the light will NOT be turned on upon each pause/lap (but can be turned on by a button, of course)
 * p123.patch: p12 + '4' digit (only large one) looks better (like it is in regular Arial font).
 * p1234.patch: p123 + Altitude of the starting point can be seen in paused mode under Speed, when Distance, Time, Speed and Calories are rolling.
-* p12345.patch: p1234 + Heading (degrees 0-360) is shown instead of Calories in running mode. 
+* p12345.patch: p1234 + Heading (degrees 0-360) is shown instead of Calories in running mode. You can still see total calories on Totals screen in Run History, but unfortunately without 'cal' text.
 
 Installation:
 -------------
