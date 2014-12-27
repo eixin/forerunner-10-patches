@@ -17,9 +17,11 @@ Installation:
 -------------
 
 1. Take firmware at http://gawisp.com/perry/forerunner/Forerunner10_240.rgn
+
 OR
 1. Take a binary Forerunner10_240.rgn
 2. Apply a patch from the list above using 'bspatch' ( http://www.daemonology.net/bsdiff/, Windows version here: http://sites.inka.de/tesla/download/bsdiff4.3-win32.zip ). Like this: 'bspatch Forerunner10_240.rgn Forerunner10_240_p1.rgn p1.patch'
+
 OR
 2. Take already patched file Forerunner10_240_*.rgn
 3. Take RGN_Tool at http://turboccc.wikispaces.com/RGN_Tool (Windows only).
