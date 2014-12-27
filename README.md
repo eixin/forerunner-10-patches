@@ -12,11 +12,16 @@ The following patches are supported (incremental):
 * p1234.patch: p123 + Altitude of the starting point can be seen in paused mode under Speed, when Distance, Time, Speed and Calories are rolling.
 * p12345.patch: p1234 + Heading (degrees 0-360) is shown instead of Calories in running mode. You can still see total calories on Totals screen in Run History, but unfortunately without 'cal' text.
 
+Update: patched binaries are uploaded too (Forerunner10_240_*.rgn)
 Installation:
 -------------
 
 1. Take firmware at http://gawisp.com/perry/forerunner/Forerunner10_240.rgn
-2. Apply a patch from the list above using 'bspatch' ( http://www.daemonology.net/bsdiff/, Windows version here: http://sites.inka.de/tesla/download/bsdiff4.3-win32.zip ). Like this: 'bspatch Forerunner10_240.rgn Forerunner10_240_p1.rgn p1.patch'.
+OR
+1. Take a binary Forerunner10_240.rgn
+2. Apply a patch from the list above using 'bspatch' ( http://www.daemonology.net/bsdiff/, Windows version here: http://sites.inka.de/tesla/download/bsdiff4.3-win32.zip ). Like this: 'bspatch Forerunner10_240.rgn Forerunner10_240_p1.rgn p1.patch'
+OR
+2. Take already patched file Forerunner10_240_*.rgn
 3. Take RGN_Tool at http://turboccc.wikispaces.com/RGN_Tool (Windows only).
 4. Open the output from pt 2. (e.g. Forerunner10_240_p1.rgn) with RGN_Tool and extract the only bin file in it into H:\Garmin\gupdate.rgn, where H: is the letter of flash drive assigned to the FR 10 upon connecting it to the computer. On non-Windows systems you may extract everything starting from offset 0x3C until the end of the patched firmware file (there should be 129084 bytes).
 5. Detach the watch and wait until software will be updated.
